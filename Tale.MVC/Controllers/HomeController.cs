@@ -12,6 +12,7 @@ namespace Tale.MVC.Controllers
 
         [HttpPost]
         public IActionResult Add()
+
         {
             return RedirectToAction("Index","Home");
         }
