@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Tale.MVC.Models;
 
 namespace Tale.MVC.Db
 {
@@ -8,5 +9,7 @@ namespace Tale.MVC.Db
     : base(options)
         {
         }
+
+        public  DbSet<Repair> Repairs { get; set; }
     }
 }
